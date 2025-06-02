@@ -1,0 +1,31 @@
+.form {
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.formField {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.formBtn {
+    font-size: 18px;
+    padding: 7px 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}

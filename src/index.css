@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  color: #484846;  
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;  
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}

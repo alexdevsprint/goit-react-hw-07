@@ -1,0 +1,13 @@
+.searchBoxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.searchByName {
+  font-size: 16px;
+  padding: 5px;
+  
+}

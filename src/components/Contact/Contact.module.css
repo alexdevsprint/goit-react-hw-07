@@ -1,0 +1,25 @@
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 20px 10px;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.contactCard button {
+    font-size: 18px;
+    padding: 7px 7px;
+}
+
+.contactItem {
+    display: flex;  
+    gap: 5px;
+}
