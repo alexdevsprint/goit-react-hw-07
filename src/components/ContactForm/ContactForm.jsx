@@ -6,7 +6,7 @@ import * as Yup from "yup";
 import { useId } from "react";
 
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
 
 export default function ContactForm() {
 
