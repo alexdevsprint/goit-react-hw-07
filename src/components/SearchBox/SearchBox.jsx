@@ -9,8 +9,8 @@ export default function SearchBox() {
   const dispatch = useDispatch();
   const searchByName = useId();
 
-  const handleChange = (e) => {
-    dispatch(changeFilter(e.target.value));
+  const handleChange = (event) => {
+    dispatch(changeFilter(event.target.value));
   };
 
   return (
