@@ -76,8 +76,7 @@ export const selectError = (state) => state.contacts.error;
 //Мемоізовані складні селектори
 export const selectFilteredContacts = createSelector(
   [selectContacts, selectNameFilter],
-  (contacts, filter) => {
-    console.log("Мемоізований селектор")
+  (contacts, filter) => {    
     return contacts.filter((contact) =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
